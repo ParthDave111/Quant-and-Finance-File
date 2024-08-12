@@ -13,9 +13,12 @@ Code :[Here](https://github.com/ParthDave111/Quant-and-Finance-File/blob/main/Un
 The Shapiro-Wilk test is a statistical hypothesis test used to determine if a sample of data comes from a normally distributed population. It is one of the most powerful tests for normality.
 
 Null hypothesis (H0): The data is normally distributed.
+
 Alternative hypothesis (H1): The data is not normally distributed
 
 P-value > significance level (e.g., 0.05): Fail to reject the null hypothesis. There is not enough evidence to suggest the data is not normally distributed.
+
+
 P-value <= significance level (e.g., 0.05): Reject the null hypothesis. There is sufficient evidence to suggest the data is not normally distributed.
 
 Code [here](https://github.com/ParthDave111/Quant-and-Finance-File/blob/main/Shapiro_Test.ipynb)
