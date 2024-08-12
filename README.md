@@ -8,6 +8,18 @@ Cook's distance is a statistical measure used to identify influential data point
 Code :[Here](https://github.com/ParthDave111/Quant-and-Finance-File/blob/main/Understanding_Cooks_Distance_.ipynb)
 
 
+## Shapiro Test 
+
+The Shapiro-Wilk test is a statistical hypothesis test used to determine if a sample of data comes from a normally distributed population. It is one of the most powerful tests for normality.
+
+Null hypothesis (H0): The data is normally distributed.
+Alternative hypothesis (H1): The data is not normally distributed
+
+P-value > significance level (e.g., 0.05): Fail to reject the null hypothesis. There is not enough evidence to suggest the data is not normally distributed.
+P-value <= significance level (e.g., 0.05): Reject the null hypothesis. There is sufficient evidence to suggest the data is not normally distributed.
+
+Code [here](https://github.com/ParthDave111/Quant-and-Finance-File/blob/main/Shapiro_Test.ipynb)
+
 ## Time series Analysis of Magnificent Seven 
 
 [Colab notebook ](https://github.com/ParthDave111/Quant-and-Finance-File/blob/main/Time_series_analysis_M7.ipynb) Colab notebook analyzes stock data for the "Magnificent 7" tech companies (AAPL, MSFT, GOOGL, AMZN, NVDA, TSLA, META). It downloads historical data from Yahoo Finance and performs the following:
