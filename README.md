@@ -30,6 +30,8 @@ Code [here](https://github.com/ParthDave111/Quant-and-Finance-File/blob/main/Sha
 ## Black Scholes model 
 
 The Black-Scholes model is a mathematical formula used to calculate the theoretical value of a European-style option. It was developed by Fischer Black, Myron Scholes, and Robert Merton in the early 1970s.
+
+
 1.)Simulating Geometric Brownian Motion (GBM): The notebook generates and visualizes GBM paths, illustrating how stock prices might evolve. It also calculates and plots the distribution of returns.
 
 2.)Black-Scholes Model: The notebook demonstrates how to price a European call option using the Black-Scholes formula.
