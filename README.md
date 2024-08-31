@@ -27,6 +27,16 @@ P-value <= significance level (e.g., 0.05): Reject the null hypothesis. There is
 
 Code [here](https://github.com/ParthDave111/Quant-and-Finance-File/blob/main/Shapiro_Test.ipynb)
 
+## Black Scholes model 
+
+The Black-Scholes model is a mathematical formula used to calculate the theoretical value of a European-style option. It was developed by Fischer Black, Myron Scholes, and Robert Merton in the early 1970s.
+Simulating Geometric Brownian Motion (GBM): The notebook generates and visualizes GBM paths, illustrating how stock prices might evolve. It also calculates and plots the distribution of returns.
+Black-Scholes Model: The notebook demonstrates how to price a European call option using the Black-Scholes formula.
+Option Greeks: It calculates and explains the significance of Delta, Gamma, Vega, Theta, and Rho, which measure the sensitivity of option prices to various factors.
+Log-Normal Property of Stock Prices: The notebook analyzes historical stock prices and compares them to log-normal distributions, highlighting a key assumption of the Black-Scholes model
+code : [here](https://github.com/ParthDave111/Quant-and-Finance-File/blob/main/Black_Sholes_.ipynb)
+
+
 ## Time series Analysis of Magnificent Seven 
 
 [Colab notebook ](https://github.com/ParthDave111/Quant-and-Finance-File/blob/main/Time_series_analysis_M7.ipynb) Colab notebook analyzes stock data for the "Magnificent 7" tech companies (AAPL, MSFT, GOOGL, AMZN, NVDA, TSLA, META). It downloads historical data from Yahoo Finance and performs the following:
