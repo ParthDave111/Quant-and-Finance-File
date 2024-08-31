@@ -42,6 +42,17 @@ The Black-Scholes model is a mathematical formula used to calculate the theoreti
 
 code : [here](https://github.com/ParthDave111/Quant-and-Finance-File/blob/main/Black_Sholes_.ipynb)
 
+## Y finance API and portfolio building 
+The [Code](https://github.com/ParthDave111/Quant-and-Finance-File/blob/main/yfinance_1.ipynb) in the notebook does the following:
+
+Imports necessary libraries: Installs and imports yfinance, pandas, numpy, and matplotlib.pyplot.
+Fetches stock data: Downloads historical data for McDonald's (MCD), Exxon Mobil (XOM), and Walmart (WMT) using yfinance.
+Calculates daily returns: Calculates the daily percentage change in closing prices for each stock.
+Computes descriptive statistics: Calculates and prints the mean, standard deviation, skewness, and kurtosis of daily returns for each stock individually.
+Calculates correlations and covariances: Computes and prints the correlation and covariance between daily returns of different stock pairs.
+Constructs a portfolio: Creates a portfolio with equal weights (approximately) for the three stocks.
+Calculates portfolio statistics: Calculates and prints the average return, volatility, skewness, and kurtosis of the portfolio returns.
+Visualizes skewness and kurtosis: Generates a bar chart comparing the skewness and kurtosis of the portfolio returns.
 
 ## Time series Analysis of Magnificent Seven 
 
