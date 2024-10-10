@@ -30,6 +30,11 @@ P-value <= significance level (e.g., 0.05): Reject the null hypothesis. There is
 
 Code [here](https://github.com/ParthDave111/Quant-and-Finance-File/blob/main/Shapiro_Test.ipynb)
 
+##  Cox-Ingersoll-Ross (CIR) model On Euribor rates
+![image](https://github.com/user-attachments/assets/befc58e0-9fa2-42f1-98f0-6290dd9b0417)
+
+
+
 ## Black Scholes model 
 
 The Black-Scholes model is a mathematical formula used to calculate the theoretical value of a European-style option. It was developed by Fischer Black, Myron Scholes, and Robert Merton in the early 1970s.
