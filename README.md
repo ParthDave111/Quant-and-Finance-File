@@ -10,6 +10,32 @@ The [Notebook](https://github.com/ParthDave111/Quant-and-Finance-File/blob/main/
 ## Bates (1996) model calibration full for Asian Put Option
 The [Notebook](https://github.com/ParthDave111/Quant-and-Finance-File/blob/main/Bates_1996_Asian_Put.ipynb) calibrates the Bates (1996) model to Asian put option prices using market data. It calibrates the Heston (1993) sub-model first, then the jump component, and finally the full model. It also implements pricing using Lewis (2001) and Carr-Madan FFT and compares results to the market prices.
 
+## Option Pricing with CIR and BCC Models
+[Notebook](https://github.com/ParthDave111/Quant-and-Finance-File/blob/main/Option_pricing_with_CIR_and_BCC.ipynb), broken down by modules 1 to 4:
+
+Module 1: Introduction and Setup
+
+This module likely imports necessary libraries such as NumPy and SciPy.
+It probably defines important variables and parameters like initial interest rates (r_0), volatility (sigma_r), and other financial constants.
+The focus here is setting the stage for financial modeling.
+Module 2: Cox-Ingersoll-Ross (CIR) Model
+
+Introduces the CIR model for interest rate dynamics.
+Defines a function CIR_forward_rate to calculate forward interest rates based on CIR model parameters.
+Includes a function CIR_error_function that likely helps in calibrating the CIR model by finding the optimal parameters that minimize the difference between model-predicted and observed interest rates.
+Module 3: Black-Cox (BCC) Option Pricing
+
+Likely introduces the Black-Cox (BCC) model or Black '96 (B96) framework for option pricing.
+The most important function here would be BCC_call_value which calculates the value of a European call option using this framework, taking inputs like the initial stock price (S_0), strike price (K), time to maturity (T), risk-free rate, and other parameters related to the model.
+Module 4: Put-Call Parity and Calculation
+
+This module applies the put-call parity relationship to calculate the price of a European put option.
+It uses the previously calculated call option value (from BCC_call_value) and other parameters to determine the put option value.
+The end goal is likely to output or display this calculated put option value.
+Overall:
+
+The notebook likely aims to illustrate a workflow in financial modeling, starting from setting up the environment, modeling interest rates (CIR), pricing a call option (BCC/B96), and ultimately utilizing these components to price a put option through put-call parity. The notebook's resolution, as previously discussed, ensures that the functions used for pricing return the necessary values for this workflow to complete successfully.
+
 ## Calculating return of Stocks using Yfinance APO 
 code : [Here](https://github.com/ParthDave111/Quant-and-Finance-File/blob/main/Working_with_stocks_return.ipynb)
 
