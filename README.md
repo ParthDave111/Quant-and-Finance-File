@@ -3,8 +3,12 @@
 File : Analyzing pirice stocks and crypto \\ need to make a table 
 
 
+
 ## Stochastic Modeling - Callibrating Merton and Heston Model 
 The [Notebook](https://github.com/ParthDave111/Quant-and-Finance-File/blob/main/Calibrating_Metron_and_Heston_Model.ipynb) focuses on calibrating the Merton Model, which is used in finance to assess credit risk and value debt. This involves implementing the model's logic and utilizing financial data, likely depicted in the included images. The process includes mathematical calculations, statistical analysis, and data manipulation using Python libraries like IPython. Overall, the notebook aims to accurately adjust the Merton Model's parameters to align with real-world financial data, enhancing its predictive capabilities for credit risk and debt valuation.
+
+## Bates (1996) model calibration full for Asian Put Option
+The notebook calibrates the Bates (1996) model to Asian put option prices using market data. It calibrates the Heston (1993) sub-model first, then the jump component, and finally the full model. It also implements pricing using Lewis (2001) and Carr-Madan FFT and compares results to the market prices.
 
 ## Calculating return of Stocks using Yfinance APO 
 code : [Here](https://github.com/ParthDave111/Quant-and-Finance-File/blob/main/Working_with_stocks_return.ipynb)
